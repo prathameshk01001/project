@@ -1,2 +1,12 @@
 line 1.
 line 2.
+
+git init                              ---> to initialize git
+git add .                             ---> to add everything to stage mode
+git log                               ---> to see commit logs
+git commit -m "some message"          ---> to commit changes
+git reset --hard <<HEAD-ID>>          ---> to revert to previous commit
+git reset --soft HEAD@{1}             ---> to shift head as latest commit by keeing the old commit changes.
+git diff <<filename>>                 ---> to see changes in file
+git status                            ---> to track the status of files
+git checkout <<filename>>             ---> to revert changes of file used only before making commit
