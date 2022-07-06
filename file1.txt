@@ -9,4 +9,6 @@ git reset --hard <<HEAD-ID>>          ---> to revert to previous commit
 git reset --soft HEAD@{1}             ---> to shift head as latest commit by keeing the old commit changes.
 git diff <<filename>>                 ---> to see changes in file
 git status                            ---> to track the status of files
-git checkout <<filename>>             ---> to revert changes of file used only before making commit
+git checkout <<filename>>             ---> to switch branches and to revert changes before commit
+git branch                            ---> show branches of the project.
+git branch <<branch_name>>            ---> creates new branch.
